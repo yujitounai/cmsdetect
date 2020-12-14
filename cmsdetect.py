@@ -64,31 +64,3 @@ for signiture in signitures:
                 # print(e.read())
             except urllib.error.URLError as e:
                 print(e.reason)
-
-
-'''
-with open("./wordpress.json") as f:
-	lines = f.read().splitlines()
-	for line in lines:
-		curlrequest[9]='Host: '+line+'.hackycorp.com'
-		print(curlrequest)
-		cp = subprocess.run(curlrequest, encoding='UTF-8')
-
-
-'''
-
-# 結果表示
-
-'''
-req = urllib.request.Request(url)
-with urllib.request.urlopen(req) as res:
-	body = res.read()
-'''
-
-'''
-フォルダ内のファイルを全部読む
-from glob import glob
-
-for file in glob(dir_name + '/*.txt'):
-    print(file)
-'''
