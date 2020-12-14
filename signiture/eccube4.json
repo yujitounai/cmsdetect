@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "eccube",
+	"version": "4",
+	"file": "admin/login",
+	"response": 200,
+	"match":"",
+	"description":"admin page"
+  },
+  "signiture2":{
+    "CMS": "eccube",
+	"version": "4",
+	"file": "mypage/login",
+	"response": 200,
+	"match":"eccube-csrf-token",
+	"description":"login page"
+  },
+  "signiture3":{
+    "CMS": "eccube",
+	"version": "4",
+    "file": "forgot",
+    "response": 200,
+	"match":"eccube-csrf-token",
+	"description":"reminder page"
+  }
+}
+

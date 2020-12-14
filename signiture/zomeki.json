@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "zomeki",
+	"version": "3",
+	"file": "_system/login",
+	"response": 200,
+	"match":"Ver.3",
+	"description":"admin page バージョン記載あり"
+  },
+  "signiture2":{
+    "CMS": "zomeki",
+	"version": "3",
+	"file": "_system/password_reminders/new",
+	"response": 200,
+	"match":"Ver.3",
+	"description":"password reminder"
+  },
+  "signiture3":{
+    "CMS": "zomeki",
+	"version": "*",
+    "file": "_themes/base/colors/white.css",
+    "response": 200,
+	"match":"",
+	"description":"themes css"
+  }
+}
+

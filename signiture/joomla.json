@@ -1,0 +1,24 @@
+{
+  "signiture1":{
+    "CMS": "Joomla!",
+	"version": "",
+	"file": "README.txt",
+	"response": 200,
+	"match":"Joomla"
+  },
+  "signiture2":{
+    "CMS": "Joomla!",
+	"version": "",
+	"file": "robots.txt.dist",
+	"response": 200,
+	"match":""
+  },
+  "signiture3":{
+    "CMS": "Joomla!",
+	"version": "",
+    "file": "web.config.txt",
+    "response": 200,
+    "match":""
+  }
+}
+

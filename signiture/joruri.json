@@ -1,0 +1,35 @@
+{
+  "signiture1":{
+    "CMS": "joruri",
+	"version": "3",
+	"file": "_admin/login",
+	"response": 200,
+	"match":"<p>v3.",
+	"description":"admin page バージョン記載あり"
+  },
+  "signiture2":{
+    "CMS": "joruri",
+	"version": "*",
+	"file": "_common/themes/admin/login.css",
+	"response": 200,
+	"match":"background-image: url(./images/bt-login.gif);",
+	"description":"login css"
+  },
+  "signiture4":{
+    "CMS": "joruri",
+	"version": "*",
+    "file": "_common/themes/joruri/base/colors/white.css",
+    "response": 200,
+	"match":"",
+	"description":"themes css"
+  },
+  "signiture5":{
+    "CMS": "joruri",
+	"version": "*",
+    "file": "_common/themes/admin/login.css",
+    "response": 200,
+	"match":"background-image: url(./images/bg-login.gif);",
+	"description":"login css"
+  }
+}
+

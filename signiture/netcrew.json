@@ -1,0 +1,27 @@
+{
+  "signiture2":{
+    "CMS": "netcrew",
+	"version": "*",
+	"file": "ssi/js/common-top.js",
+	"response": 200,
+	"match":"",
+	"description":"js"
+  },
+  "signiture3":{
+    "CMS": "netcrew",
+	"version": "*",
+    "file": "ssi/js/escapeurl.js",
+    "response": 200,
+	"match":"htmlspecialchars_URL",
+	"description":"htmlspecialchars_URL"
+  },
+  "signiture1":{
+    "CMS": "netcrew",
+	"version": "*",
+	"file": "",
+	"response": 200,
+	"match":"<!-- コンテナここまで -->",
+	"description":"top page 自治体専用ネットクルーCMS - 福泉（フクセン）"
+  }
+}
+

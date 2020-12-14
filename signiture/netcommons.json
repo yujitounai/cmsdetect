@@ -1,0 +1,11 @@
+{
+  "signiture1":{
+    "CMS": "netcommons",
+	"version": "*",
+	"file": "auth/login",
+	"response": 200,
+	"match":"Powered by NetCommons",
+	"description":"netcommons"
+  }
+}
+

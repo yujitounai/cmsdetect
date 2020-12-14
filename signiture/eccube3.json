@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "eccube",
+	"version": "3",
+	"file": "admin/login",
+	"response": 200,
+	"match":"v=3.0.",
+	"description":"admin page"
+  },
+  "signiture2":{
+    "CMS": "eccube",
+	"version": "3",
+	"file": "mypage/login",
+	"response": 200,
+	"match":"v=3.0.",
+	"description":"login page"
+  },
+  "signiture3":{
+    "CMS": "eccube",
+	"version": "3",
+    "file": "forgot",
+    "response": 200,
+	"match":"v=3.0.",
+	"description":"reminder page"
+  }
+}
+

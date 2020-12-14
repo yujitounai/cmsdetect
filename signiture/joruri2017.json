@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "joruri",
+	"version": "2017",
+	"file": "_system/login",
+	"response": 200,
+	"match":"2017 Release",
+	"description":"admin page"
+  },
+  "signiture2":{
+    "CMS": "joruri",
+	"version": "2017",
+	"file": "_common/themes/admin/login.css",
+	"response": 200,
+	"match":"background-image: url(./images/bg-login.png);",
+	"description":"login css"
+  },
+  "signiture3":{
+    "CMS": "joruri",
+	"version": "2017",
+    "file": "_system/password_reminders/new",
+    "response": 200,
+	"match":"2017 Release",
+	"description":"reminder page"
+  }
+}
+

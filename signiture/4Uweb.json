@@ -1,0 +1,35 @@
+{
+  "signiture1":{
+    "CMS": "4Uweb",
+	"version": "*",
+	"file": "css/style.wysiwyg.css",
+	"response": 200,
+	"match":"4Uweb",
+	"description":"4Uweb／CMS WYSIWYGエディタ用スタイルシート。"
+  },
+  "signiture2":{
+    "CMS": "4Uweb",
+	"version": "*",
+    "file": "",
+    "response": 200,
+	"match":"<!-- scs_jyogai_start -->",
+	"description":""
+  },
+  "signiture3":{
+    "CMS": "4Uweb",
+	"version": "*",
+	"file": "",
+	"response": 200,
+	"match":"<link rel=\"apple-touch-icon\" href=\"/images/apple-touch-icon.png\">",
+	"description":"top page "
+  },
+  "signiture4":{
+    "CMS": "4Uweb",
+	"version": "*",
+	"file": "css/2018-style.wysiwyg.css",
+	"response": 200,
+	"match":"4Uweb",
+	"description":"4Uweb／CMS WYSIWYGエディタ用スタイルシート。"
+  }
+}
+

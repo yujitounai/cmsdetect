@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "eccube",
+	"version": "2",
+	"file": "admin/",
+	"response": 200,
+	"match":"transactionid",
+	"description":"admin page"
+  },
+  "signiture2":{
+    "CMS": "eccube",
+	"version": "2",
+	"file": "/frontparts/login_check.php",
+	"response": 200,
+	"match":"transactionid",
+	"description":"login page"
+  },
+  "signiture3":{
+    "CMS": "eccube",
+	"version": "2",
+    "file": "forgot/",
+    "response": 200,
+	"match":"transactionid",
+	"description":"reminder page"
+  }
+}
+
