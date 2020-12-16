@@ -1,5 +1,3 @@
-#curlで辞書攻撃する
-
 import sys
 import urllib.request
 import json
