@@ -10,7 +10,7 @@
   "signiture2":{
     "CMS": "eccube",
 	"version": "2",
-	"file": "/frontparts/login_check.php",
+	"file": "frontparts/login_check.php",
 	"response": 200,
 	"match":"transactionid",
 	"description":"login page"

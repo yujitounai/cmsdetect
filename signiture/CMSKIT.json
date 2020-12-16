@@ -1,0 +1,35 @@
+{
+  "signiture1":{
+    "CMS": "CMSKIT",
+	"version": "2",
+	"file": "cgi-bin/wcv/wcv.cgi",
+	"response": 200,
+	"match":"バージョン 2",
+	"description":"admin page"
+  },
+  "signiture2":{
+    "CMS": "CMSKIT",
+	"version": "*",
+	"file": "_wcv/js/wcv.js",
+	"response": 200,
+	"match":"Copyright (C) Noah,Inc",
+	"description":"login js"
+  },
+  "signiture3":{
+    "CMS": "CMSKIT",
+	"version": "*",
+    "file": "cgi-bin/wcv/",
+    "response": 403,
+	"match":"Forbidden",
+	"description":"cgi-bin"
+  },
+  "signiture4":{
+    "CMS": "CMSKIT",
+	"version": "*",
+    "file": "",
+    "response": 500,
+	"match":"***",
+	"description":"cgi-bin/wcv/data/cmskit.db"
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "signiture1":{
+    "CMS": "a-blog CMS",
+	"version": "3",
+	"file": "login/alt/remind/",
+	"response": 200,
+	"match":"ACMS_POST_Login_Remind",
+	"description":"password reminder"
+  }
+}
+
