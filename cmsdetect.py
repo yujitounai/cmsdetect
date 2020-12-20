@@ -1,33 +1,29 @@
 import sys
-import urllib.request
+import requests
 import json
 import glob
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-
 def detection(url,v):
     print(url+v['file']) 
-    req = urllib.request.Request(url+v['file'])
+#    req = urllib.request.Request(url+v['file'])
     try:
-        with urllib.request.urlopen(req) as res:
-            print (res.code)
+        with requests.get(url+v['file'],allow_redirects=False) as response:
+            print (response.status_code)#urllib.request.urlopenは301を無視する
             # レスポンスコードは条件通りか
-            if res.code == v['response']:
+            if response.status_code == v['response']:
                 # レスポンスのバイト数 Content-Lengthヘッダ
                 if 'length' in v:
-                    headers = res.info()
-                    if 'Content-Type' in headers:
-                        if int(headers['Content-Length'])==v['length']:
-                            ## 何で検出したか
-                            print('length = '+ str(v['length']))
-                            print (v['CMS']+ v.get('version','*')+' is detected!')
-                            exit()
+                    response.headers['Content-Type']
+                    if int(response.headers['Content-Length'])==v['length']:
+                        ## 何で検出したか
+                        print('length = '+ str(v['length']))
+                        print (v['CMS']+ v.get('version','*')+' is detected!')
+                        exit()
                 # matchワードがあれば
                 if 'match' in v:
-                    body = res.read()
-                    body = body.decode('utf-8')
-                    if v['match'] in body:
+                    if v['match'] in response.text:
                         ## 何で検出したか
                         print ('match ' + v['match'])
                         print (v['CMS']+ v.get('version','*')+' is detected!')
@@ -35,18 +31,33 @@ def detection(url,v):
                 else:
                     print (v['CMS']+ v.get('version','*')+' is detected!')
                     if mode=='verbose':
-                        print(str(res.read()))
+                        print(response.text)
                     exit()
     # HTTPError は URLError のサブクラスであるため、両方を except したい場合は HTTPError を先に書く必要がある。
-    except urllib.error.HTTPError as e:
+    except requests.HTTPError as e:
         print(e.code)
         # レスポンスコードは条件通りか
         # エラーコード（5xx,4xx）の時はこっちに例外が飛ぶ
         if e.code == v['response']:
-            print (v['CMS']+ v.get('version','*')+' is detected!')
-            exit()
-    except urllib.error.URLError as e:
+        # matchワードがあれば
+            if 'match' in v:
+                body = e.read()
+                body = body.decode('utf-8', errors="backslashreplace")
+                if v['match'] in body:
+                ## 何で検出したか
+                    print ('match ' + v['match'])
+                    print (v['CMS']+ v.get('version','*')+' is detected!')
+                    exit()
+            else:
+                print (v['CMS']+ v.get('version','*')+' is detected!')
+                exit()
+    except requests.ConnectionError as e:
         print(e.reason)
+        exit()
+    except requests.exceptions.ConnectTimeout:
+        print(e.reason)
+        exit()
+
 
 # 引数取ってURLを設定する
 args = sys.argv
