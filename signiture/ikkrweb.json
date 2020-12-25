@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "ikkrweb",
+	"version": "*",
+	"file": "i/form/inquiryPC/noexist.do",
+	"response": 404,
+	"match":"いくくるウェブ",
+	"description":"いくくるウェブ"
+  },
+  "signiture2":{
+    "CMS": "ikkrweb",
+	"version": "*",
+	"file": "i/form/inquiryPC/Init.do",
+	"response": 200,
+	"match":"現在閲覧することはできません",
+	"description":"login js"
+  },
+  "signiture3":{
+    "CMS": "ikkrweb",
+	"version": "*",
+    "file": "section/jalert_rss/jalert_rss.php",
+    "response": 200,
+	"match":"",
+	"description":"icon"
+  }
+}
+

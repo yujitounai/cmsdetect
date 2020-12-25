@@ -20,7 +20,7 @@
 	"version": "4",
 	"file": "html/template/default/assets/js/function.js",
 	"response": 200,
-	"match":"",
+	"match":"EC-CUBE",
 	"description":"js"
   }
 }

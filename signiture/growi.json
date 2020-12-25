@@ -1,0 +1,19 @@
+{
+  "signiture1":{
+    "CMS": "growi",
+	"version": "4",
+	"file": "login",
+	"response": 200,
+	"match":"<a href=\"https://growi.org\">GROWI</a> 4",
+	"description":"login page"
+  },
+  "signiture2":{
+    "CMS": "growi",
+	"version": "4",
+	"file": "",
+	"response": 200,
+	"match":"<a href=\"https://growi.org\">GROWI</a> 4",
+	"description":"バージョン記載あり"
+  }
+}
+

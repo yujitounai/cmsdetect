@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "shimanekencms",
+	"version": "",
+	"file": "susanoo/users/login",
+	"response": 200,
+	"match":"パスワード",
+	"description":"login page"
+  },
+  "signiture2":{
+    "CMS": "shimanekencms",
+	"version": "*",
+	"file": "javascripts/banner.js",
+	"response": 200,
+	"match":"BANNERS",
+	"description":"js"
+  },
+  "signiture3":{
+    "CMS": "shimanekencms",
+	"version": "*",
+    "file": "_admin/login",
+    "response": 200,
+	"match":"パスワード",
+	"description":"こっちが正しい？"
+  }
+}
+

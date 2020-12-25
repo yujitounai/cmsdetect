@@ -1,0 +1,35 @@
+{
+  "signiture1":{
+    "CMS": "UDFace",
+	"version": "*",
+	"file": "",
+	"response": 200,
+	"match":"▼▼フリーHTMLスペース",
+	"description":"top"
+  },
+  "signiture2":{
+    "CMS": "UDFace",
+	"version": "*",
+	"file": "category/3-2-0-0-0-0-0-0-0-0.html",
+	"response": 200,
+	"match":"category/3-2-0-0-0-0-0-0-0-0.html",
+	"description":"暫定"
+  },
+  "signiture3":{
+    "CMS": "UDFace",
+	"version": "*",
+    "file": "js/onload.js",
+    "response": 200,
+	"match":"if($('.furigana').length) {",
+	"description":"js"
+  },
+    "signiture4":{
+    "CMS": "UDFace",
+	"version": "*",
+	"file": "",
+	"response": 200,
+	"match":"<!-- ▲▲▲▲▲メイン▲▲▲▲▲▲ -->",
+	"description":"top"
+  }
+}
+

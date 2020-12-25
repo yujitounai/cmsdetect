@@ -1,14 +1,14 @@
 {
   "signiture1":{
     "CMS": "WordPress",
-	"version": "",
+	"version": "*",
 	"file": "wp-login.php",
 	"response": 200,
 	"description":"login page"
   },
   "signiture2":{
     "CMS": "WordPress",
-	"version": "",
+	"version": "*",
 	"file": "readme.html",
 	"response": 200,
 	"match":"wordpress",
@@ -16,19 +16,21 @@
   },
   "signiture3":{
     "CMS": "WordPress",
-	"version": "",
+	"version": "*",
     "file": "license.txt",
+	"match":"wordpress",
     "response": 200
   },
   "signiture4":{
     "CMS": "WordPress",
-	"version": "",
+	"version": "*",
     "file": "wp-signup.php",
+	"match":"wordpress",
     "response": 200
   },
   "signiture5":{
     "CMS": "WordPress",
-	"version": "",
+	"version": "*",
     "file": "wp-content/index.php",
     "response": 200,
     "length": 0,

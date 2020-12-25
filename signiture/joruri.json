@@ -20,7 +20,7 @@
 	"version": "*",
     "file": "_common/themes/joruri/base/colors/white.css",
     "response": 200,
-	"match":"",
+	"match":"body",
 	"description":"themes css"
   },
   "signiture5":{

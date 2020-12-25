@@ -4,7 +4,7 @@
 	"version": "*",
 	"file": "ssi/js/common-top.js",
 	"response": 200,
-	"match":"",
+	"match":"jQuery",
 	"description":"js"
   },
   "signiture3":{

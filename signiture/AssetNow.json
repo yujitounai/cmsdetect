@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "AssetNow",
+	"version": "*",
+	"file": "images/template/template.css",
+	"response": 200,
+	"match":"AssetNow",
+	"description":"AssetNow"
+  },
+  "signiture2":{
+    "CMS": "AssetNow",
+	"version": "*",
+	"file": "designs/default/js/share.js",
+	"response": 200,
+	"match":"// JavaScript Document",
+	"description":"js"
+  },
+  "signiture3":{
+    "CMS": "AssetNow",
+	"version": "*",
+    "file": "designs/default/print.css",
+    "response": 200,
+	"match":"AssetNow",
+	"description":"css"
+  }
+}
+

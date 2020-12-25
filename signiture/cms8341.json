@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "cms8341",
+	"version": "*",
+	"file": "shared/templates/top/style/edit.css",
+	"response": 200,
+	"match":"@charset \"utf-8\";",
+	"description":"css"
+  },
+  "signiture2":{
+    "CMS": "cms8341",
+	"version": "*",
+	"file": "shared/js/setting_head.js",
+	"response": 200,
+	"match":"jQuery.noConflict();",
+	"description":"login js"
+  },
+  "signiture3":{
+    "CMS": "cms8341",
+	"version": "*",
+    "file": "shared/images/favicon/apple-touch-icon-precomposed.png",
+    "response": 200,
+	"length": 0,
+	"description":"今のところエラーだけどレスポンスのtypeを見るようになればこれで判定できると思う"
+  }
+}
+

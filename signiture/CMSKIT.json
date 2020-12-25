@@ -19,9 +19,9 @@
     "CMS": "CMSKIT",
 	"version": "*",
     "file": "cgi-bin/wcv/",
-    "response": 403,
+    "response": 400,
 	"match":"Forbidden",
-	"description":"cgi-bin"
+	"description":"ちょっとこれだけでは誤検知が多いので400にしてる"
   },
   "signiture4":{
     "CMS": "CMSKIT",

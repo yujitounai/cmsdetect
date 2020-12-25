@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "CMS ALAYA",
+	"version": "*",
+	"file": "files/new_menu.js",
+	"response": 200,
+	"match":"",
+	"description":"ALAYAは暫定で精度に問題あり"
+  },
+  "signiture2":{
+    "CMS": "CMS ALAYA",
+	"version": "*",
+	"file": "common/import.css",
+	"response": 200,
+	"match":"Description: スタイルシート",
+	"description":"css"
+  },
+  "signiture3":{
+    "CMS": "CMS ALAYA",
+	"version": "*",
+    "file": "cgi-bin/event/cal.cgi?Y=2020&M=12",
+    "response": 200,
+	"match":"",
+	"description":"calender"
+  }
+}
+

@@ -1,0 +1,27 @@
+{
+  "signiture2":{
+    "CMS": "TsuNaGo",
+	"version": "*",
+	"file": "_template_/_site_/_default_/_res/dummy.css",
+	"response": 200,
+	"match":"@charset \"utf-8\";",
+	"description":"css"
+  },
+  "signiture1":{
+    "CMS": "TsuNaGo",
+	"version": "*",
+	"file": "_template_/_site_/_default_/_res/js/smp.js",
+	"response": 200,
+	"match":"FUTUREINN",
+	"description":"js"
+  },
+  "signiture3":{
+    "CMS": "TsuNaGo",
+	"version": "*",
+    "file": "cgi-evt/event.cgi",
+    "response": 200,
+	"match":"イベントカレンダー",
+	"description":"event calender"
+  }
+}
+

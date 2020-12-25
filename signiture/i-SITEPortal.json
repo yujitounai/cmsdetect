@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "i-SITE Portal",
+	"version": "*",
+	"file": "admin/common.js",
+	"response": 200,
+	"match":"i-SITE Portal",
+	"description":"レスポンスヘッダ Server: i-SITE Webserver で"
+  },
+  "signiture2":{
+    "CMS": "i-SITE Portal",
+	"version": "*",
+	"file": "css/portal.css",
+	"response": 200,
+	"match":"i-SITE PORTAL",
+	"description":"css"
+  },
+  "signiture3":{
+    "CMS": "i-SITE Portal",
+	"version": "*",
+    "file": "services/rdf/rss10/1079.xml",
+    "response": 200,
+	"match":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+	"description":"新着情報(RSS)"
+  }
+}
+

@@ -20,7 +20,7 @@
 	"version": "*",
     "file": "_themes/base/colors/white.css",
     "response": 200,
-	"match":"",
+	"match":"background-color: #fff;",
 	"description":"themes css"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "kuro",
+	"version": "*",
+	"file": "skin/top/js/ready.js",
+	"response": 200,
+	"match":"@Kuro",
+	"description":"暫定"
+  },
+  "signiture2":{
+    "CMS": "kuro",
+	"version": "*",
+	"file": "skin/common/css/reset.css",
+	"response": 200,
+	"match":"@Kuro",
+	"description":"css"
+  },
+  "signiture3":{
+    "CMS": "kuro",
+	"version": "*",
+    "file": "count.php",
+    "response": 200,
+	"match":"",
+	"description":"count.php"
+  }
+}
+
