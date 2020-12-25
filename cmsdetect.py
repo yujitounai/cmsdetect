@@ -9,7 +9,7 @@ def detection(url,v):
     print(url+v['file']) 
 #    req = urllib.request.Request(url+v['file'])
     try:
-        with requests.get(url+v['file'],allow_redirects=False) as response:
+        with requests.get(url+v['file'],allow_redirects=False,timeout=(3.0, 7.5)) as response:
             print (response.status_code)#urllib.request.urlopenは301を無視する
             # レスポンスコードは条件通りか
             if response.status_code == v['response']:
@@ -23,6 +23,7 @@ def detection(url,v):
                         exit()
                 # matchワードがあれば
                 if 'match' in v:
+                    response.encoding = 'UTF-8' # 文字化け対策
                     if v['match'] in response.text:
                         ## 何で検出したか
                         print ('match ' + v['match'])
@@ -51,13 +52,14 @@ def detection(url,v):
             else:
                 print (v['CMS']+ v.get('version','*')+' is detected!')
                 exit()
+    except requests.exceptions.ConnectTimeout as e:
+        print(e)
+    except requests.exceptions.RequestException as e:
+        print(e)
+        exit()
     except requests.ConnectionError as e:
-        print(e.reason)
+        print(e)
         exit()
-    except requests.exceptions.ConnectTimeout:
-        print(e.reason)
-        exit()
-
 
 # 引数取ってURLを設定する
 args = sys.argv
