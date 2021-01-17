@@ -9,6 +9,14 @@
   },
   "signiture2":{
     "CMS": "joruri",
+	"version": "2",
+	"file": "_admin/login",
+	"response": 200,
+	"match":"<p>v2.",
+	"description":"admin page バージョン記載あり"
+  },
+  "signiture3":{
+    "CMS": "joruri",
 	"version": "*",
 	"file": "_common/themes/admin/login.css",
 	"response": 200,
@@ -20,7 +28,7 @@
 	"version": "*",
     "file": "_common/themes/joruri/base/colors/white.css",
     "response": 200,
-	"match":"body",
+	"match":"body {",
 	"description":"themes css"
   },
   "signiture5":{

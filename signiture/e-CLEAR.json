@@ -1,0 +1,50 @@
+{
+  "signiture1":{
+    "CMS": "e-CLEAR",
+	"version": "*",
+	"file": "share/script/init.js",
+	"response": 200,
+	"match":"var path_css = \"/share/style/\";",
+	"description":"js 福井県が使ってるやつ"
+  },
+  "signiture2":{
+    "CMS": "e-CLEAR",
+	"version": "*",
+	"file": "share/style/sizedefault.css",
+	"response": 200,
+	"match":"@charset \"utf-8\";",
+	"description":"css"
+  },
+  "signiture3":{
+    "CMS": "e-CLEAR",
+	"version": "*",
+    "file": "globalnavi.json",
+    "response": 200,
+	"match":"\"title\"",
+	"description":"json"
+  },
+  "signiture4":{
+    "CMS": "e-CLEAR",
+	"version": "*",
+	"file": "share/scripts/init.js",
+	"response": 200,
+	"match":"var path_css = \"/share/style/\";",
+	"description":"js 福井県が使ってるやつ"
+  },
+  "signiture5":{
+    "CMS": "e-CLEAR",
+	"version": "*",
+	"file": "share/style/smart.css",
+	"response": 200,
+	"match":"@charset \"utf-8\";",
+	"description":"css"
+  },
+  "signiture6":{
+    "CMS": "e-CLEAR",
+	"version": "*",
+	"file": "",
+	"response": 200,
+	"match":"cgi-bin/view/pageview.cgi?PAGE_KIND_CD",
+	"description":"pageview.cgi"
+  }
+}

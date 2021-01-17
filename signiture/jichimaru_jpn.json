@@ -1,0 +1,18 @@
+{
+  "signiture1":{
+    "CMS": "jichimaru_jpn",
+	"version": "*",
+	"file": "jichimaru_jpn/content/search?SearchText=1",
+	"response": 200,
+	"match":"キーワード\"<strong>1</strong>\"は",
+	"description":"下呂市と川南町だけ？"
+  },
+  "signiture2":{
+    "CMS": "jichimaru_jpn",
+	"version": "*",
+	"file": "extension/jichimaru_base/design/jichimaru_base/javascript/jquery_script.js",
+	"response": 200,
+	"match":"// flatHeights",
+	"description":"js"
+  }
+}

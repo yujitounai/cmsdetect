@@ -1,0 +1,51 @@
+{
+  "signiture1":{
+    "CMS": "WEB NA",
+	"version": "*",
+	"file": "search/pub/Default.aspx?c_id=2&q=1",
+	"response": 200,
+	"match":"サイト内検索 / ",
+	"description":"株式会社エヌ・アイ・ケイ「WEB NA」"
+  },
+  "signiture2":{
+    "CMS": "WEB NA",
+	"version": "*",
+	"file": "dynamic/search/pub/Default.aspx?c_id=2&q=1",
+	"response": 200,
+	"match":"サイト内検索 / ",
+	"description":"株式会社エヌ・アイ・ケイ「WEB NA」"
+  },
+  "signiture3":{
+    "CMS": "WEB NA",
+	"version": "*",
+	"file": "common/css/Default.css",
+	"response": 200,
+	"match":"ブラウザ毎の表示の差異を吸収する為のデフォルトスタイル",
+	"description":"css"
+  },
+  "signiture4":{
+    "CMS": "WEB NA",
+	"version": "*",
+	"file": "common/themes/Default.css",
+	"response": 200,
+	"match":"ブラウザ毎の表示の差異を吸収する為のデフォルトスタイル",
+	"description":"css"
+  },
+  "signiture5":{
+    "CMS": "WEB NA",
+	"version": "*",
+	"file": "dynamic/common/css/default.css",
+	"response": 200,
+	"match":"ブラウザ毎の表示の差異を吸収する為のデフォルトスタイル",
+	"description":"css"
+  },
+  "signiture6":{
+    "CMS": "WEB NA",
+	"version": "*",
+	"file": "hpkiji/pub/List.aspx?c_id=1&class_set_id=1&class_id=1",
+	"response": 200,
+	"match":"__VIEWSTATE",
+	"description":"List"
+  }
+}
+

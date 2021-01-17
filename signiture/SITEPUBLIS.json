@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "SITE PUBLIS",
+	"version": "*",
+	"file": "view_css.php?pageId=1",
+	"response": 200,
+	"match":"pbPage",
+	"description":"https://guide.sitepublis.net/publis4/_2216/_2399.html"
+  },
+  "signiture2":{
+    "CMS": "SITE PUBLIS",
+	"version": "*",
+	"file": "",
+	"response": 200,
+	"match":"pbGlobalAliasBase",
+	"description":"toppage"
+  },
+  "signiture3":{
+    "CMS": "SITE PUBLIS",
+	"version": "*",
+    "file": "_001.html",
+    "response": 200,
+	"match":"お探しのページは一時的にアクセスがきない状況にあるか、移動もしくは削除された可能性があります。",
+	"description":"404"
+  }
+}
+

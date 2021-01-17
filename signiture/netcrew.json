@@ -1,21 +1,37 @@
 {
+  "signiture1":{
+    "CMS": "netcrew",
+	"version": "*",
+	"file": "img/photo/images.xml",
+	"response": 200,
+	"match":"Gallery",
+	"description":"js"
+  },
   "signiture2":{
     "CMS": "netcrew",
 	"version": "*",
-	"file": "ssi/js/common-top.js",
+	"file": "soshiki/",
 	"response": 200,
-	"match":"jQuery",
+	"match":"組織で探す",
 	"description":"js"
   },
   "signiture3":{
     "CMS": "netcrew",
 	"version": "*",
-    "file": "ssi/js/escapeurl.js",
+    "file": "life/",
     "response": 200,
-	"match":"htmlspecialchars_URL",
-	"description":"htmlspecialchars_URL"
+	"match":"分類でさがす",
+	"description":""
   },
-  "signiture1":{
+  "signiture4":{
+    "CMS": "netcrew",
+	"version": "*",
+    "file": "calendar/index.php",
+    "response": 200,
+	"match":"<!-- コンテナここから -->",
+	"description":"カレンダーでさがすとイベントカレンダーがある"
+  },
+  "signiture5":{
     "CMS": "netcrew",
 	"version": "*",
 	"file": "",

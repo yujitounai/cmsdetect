@@ -6,6 +6,30 @@
 	"response": 200,
 	"match":"Powered by NetCommons",
 	"description":"netcommons"
+  },
+  "signiture2":{
+    "CMS": "netcommons",
+	"version": "*",
+	"file": "css/net_commons/style.css",
+	"response": 200,
+	"match":"NetCommons Project",
+	"description":"netcommons"
+  },
+  "signiture3":{
+    "CMS": "netcommons",
+	"version": "*",
+	"file": "js/net_commons/base.js",
+	"response": 200,
+	"match":"NetCommonsApp",
+	"description":"netcommons"
+  },
+  "signiture4":{
+    "CMS": "netcommons",
+	"version": "*",
+	"file": "index.php?action=login_view_main_init",
+	"response": 200,
+	"match":"ログインID",
+	"description":"netcommons"
   }
 }
 

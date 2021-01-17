@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "SHIRASAGI",
+	"version": "*",
+	"file": ".mypage/login",
+	"response": 200,
+	"match":"ver. ",
+	"description":"login"
+  },
+  "signiture2":{
+    "CMS": "SHIRASAGI",
+	"version": "*",
+	"file": "assets/cms/public.js",
+	"response": 200,
+	"match":"DateFormatter",
+	"description":"js"
+  },
+  "signiture3":{
+    "CMS": "SHIRASAGI",
+	"version": "*",
+	"file": "assets/js/sprintf.js",
+	"response": 200,
+	"match":"M.Inamori",
+	"description":"js"
+  }
+}
+

@@ -1,0 +1,21 @@
+#!/bin/sh
+python ./cmsdetect.py 32 島根県 https://www.pref.shimane.lg.jp/
+python ./cmsdetect.py 32 松江市 http://www.city.matsue.shimane.jp/
+python ./cmsdetect.py 32 浜田市 https://www.city.hamada.shimane.jp/
+python ./cmsdetect.py 32 出雲市 https://www.city.izumo.shimane.jp/
+python ./cmsdetect.py 32 益田市 https://www.city.masuda.lg.jp/
+python ./cmsdetect.py 32 大田市 https://www.city.ohda.lg.jp/
+python ./cmsdetect.py 32 安来市 https://www.city.yasugi.shimane.jp/
+python ./cmsdetect.py 32 江津市 https://www.city.gotsu.lg.jp/
+python ./cmsdetect.py 32 雲南市 https://www.city.unnan.shimane.jp/unnan/
+python ./cmsdetect.py 32 奥出雲町 https://www.town.okuizumo.shimane.jp/
+python ./cmsdetect.py 32 飯南町 http://www.iinan.jp/
+python ./cmsdetect.py 32 川本町 http://www.town.shimane-kawamoto.lg.jp/
+python ./cmsdetect.py 32 美郷町 https://www.town.shimane-misato.lg.jp/
+python ./cmsdetect.py 32 邑南町 https://www.town.ohnan.lg.jp/
+python ./cmsdetect.py 32 津和野町 http://www.town.tsuwano.lg.jp/
+python ./cmsdetect.py 32 吉賀町 https://www.town.yoshika.lg.jp/
+python ./cmsdetect.py 32 海士町 http://www.town.ama.shimane.jp/
+python ./cmsdetect.py 32 西ノ島町 http://www.town.nishinoshima.shimane.jp/
+python ./cmsdetect.py 32 知夫村 http://www.vill.chibu.lg.jp/gyosei/
+python ./cmsdetect.py 32 隠岐の島町 https://www.town.okinoshima.shimane.jp/

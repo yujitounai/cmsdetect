@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "SMART CMS",
+	"version": "*",
+	"file": "theme/base/js/common_lib.js",
+	"response": 200,
+	"match":"SMART CMS",
+	"description":"js にバージョン記載"
+  },
+  "signiture2":{
+    "CMS": "SMART CMS",
+	"version": "*",
+	"file": "",
+	"response": 200,
+	"match":"<!-- //#wrapper  -->",
+	"description":"top"
+  },
+  "signiture3":{
+    "CMS": "SMART CMS",
+	"version": "*",
+    "file": "",
+    "response": 200,
+	"match":"smart-lgov.jp",
+	"description":""
+  }
+}
+

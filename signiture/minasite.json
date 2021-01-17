@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "みなさいと",
+	"version": "*",
+	"file": "",
+	"response": 200,
+	"match":"<!-- みなさいと",
+	"description":"top"
+  },
+  "signiture2":{
+    "CMS": "みなさいと",
+	"version": "*",
+	"file": "viewer/_js/login.min.js",
+	"response": 200,
+	"match":"selfPos",
+	"description":"js"
+  },
+  "signiture3":{
+    "CMS": "みなさいと",
+	"version": "*",
+    "file": "common/ajax/TopPageUpdateCount.php",
+    "response": 200,
+	"match":"\"in\":",
+	"description":""
+  }
+}
+

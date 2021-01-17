@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "DNAVI",
+	"version": "*",
+	"file": "rss/rc/",
+	"response": 200,
+	"match":"2:正常に処理を行えません。",
+	"description":"株式会社DAZZ-STYLE"
+  },
+  "signiture2":{
+    "CMS": "DNAVI",
+	"version": "*",
+	"file": "assets/css/r-common.css",
+	"response": 200,
+	"match":"デバイス別 共通スタイル",
+	"description":"css"
+  },
+  "signiture3":{
+    "CMS": "DNAVI",
+	"version": "*",
+	"file": "assets/js/accordion.js",
+	"response": 200,
+	"match":"クリック時の動作",
+	"description":"js"
+  }
+}
+

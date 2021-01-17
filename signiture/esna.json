@@ -1,0 +1,19 @@
+{
+  "signiture1":{
+    "CMS": "esna",
+	"version": "*",
+	"file": "js/common.js",
+	"response": 200,
+	"match":"Esna",
+	"description":"CMS「ESNA」"
+  },
+  "signiture2":{
+    "CMS": "esna",
+	"version": "*",
+	"file": "js/home.js",
+	"response": 200,
+	"match":"Esna",
+	"description":""
+  }
+}
+

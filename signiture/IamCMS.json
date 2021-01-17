@@ -1,0 +1,34 @@
+{
+  "signiture1":{
+    "CMS": "IamCMS",
+	"version": "*",
+	"file": "css/master.css",
+	"response": 200,
+	"match":"Iam DesignNetwork Corporation",
+	"description":"css Iam DesignNetwork Corporation"
+  },
+  "signiture2":{
+    "CMS": "IamCMS",
+	"version": "*",
+	"file": "js/addBlank.js",
+	"response": 200,
+	"match":"Iam Design Network",
+	"description":"js"
+  },
+  "signiture3":{
+    "CMS": "IamCMS",
+	"version": "*",
+    "file": "admin/css/master.css",
+    "response": 200,
+	"match":"管理画面",
+	"description":"index.php?action=pages_view_main rss/RssFeed.jspもある"
+  },
+  "signiture4":{
+    "CMS": "IamCMS",
+	"version": "*",
+    "file": "admin/css/master.css",
+    "response": 401,
+	"match":"401 Authorization Required",
+	"description":"index.php?action=pages_view_main rss/RssFeed.jspもある"
+  }
+}

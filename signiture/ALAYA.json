@@ -4,7 +4,7 @@
 	"version": "*",
 	"file": "files/new_menu.js",
 	"response": 200,
-	"match":"",
+	"match":"tchEvent",
 	"description":"ALAYAは暫定で精度に問題あり"
   },
   "signiture2":{
@@ -20,7 +20,7 @@
 	"version": "*",
     "file": "cgi-bin/event/cal.cgi?Y=2020&M=12",
     "response": 200,
-	"match":"",
+	"match":"12月",
 	"description":"calender"
   }
 }

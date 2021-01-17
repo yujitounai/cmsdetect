@@ -1,0 +1,21 @@
+#!/bin/sh
+python ./cmsdetect.py 35 山口県 https://www.pref.yamaguchi.lg.jp/
+python ./cmsdetect.py 35 下関市 http://www.city.shimonoseki.lg.jp/
+python ./cmsdetect.py 35 宇部市 https://www.city.ube.yamaguchi.jp/
+python ./cmsdetect.py 35 山口市 https://www.city.yamaguchi.lg.jp/
+python ./cmsdetect.py 35 萩市 https://www.city.hagi.lg.jp/
+python ./cmsdetect.py 35 防府市 https://www.city.hofu.yamaguchi.jp/
+python ./cmsdetect.py 35 下松市 https://www.city.kudamatsu.lg.jp/
+python ./cmsdetect.py 35 岩国市 http://www.city.iwakuni.lg.jp/
+python ./cmsdetect.py 35 光市 https://www.city.hikari.lg.jp/
+python ./cmsdetect.py 35 長門市 https://www.city.nagato.yamaguchi.jp/
+python ./cmsdetect.py 35 柳井市 https://www.city-yanai.jp/
+python ./cmsdetect.py 35 美祢市 https://www2.city.mine.lg.jp/
+python ./cmsdetect.py 35 周南市 http://www.city.shunan.lg.jp/
+python ./cmsdetect.py 35 山陽小野田市 https://www.city.sanyo-onoda.lg.jp/
+python ./cmsdetect.py 35 周防大島町 https://www.town.suo-oshima.lg.jp/
+python ./cmsdetect.py 35 和木町 https://www.town.waki.lg.jp/
+python ./cmsdetect.py 35 上関町 https://www.town.kaminoseki.lg.jp/
+python ./cmsdetect.py 35 田布施町 https://www.town.tabuse.lg.jp/
+python ./cmsdetect.py 35 平生町 http://www.town.hirao.lg.jp/
+python ./cmsdetect.py 35 阿武町 http://www.town.abu.lg.jp/

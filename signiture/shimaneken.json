@@ -20,8 +20,8 @@
 	"version": "*",
     "file": "_admin/login",
     "response": 200,
-	"match":"パスワード",
-	"description":"こっちが正しい？"
+	"match":"shimane",
+	"description":"と同じ"
   }
 }
 

@@ -1,0 +1,35 @@
+{
+  "signiture1":{
+    "CMS": "cms-sypher",
+	"version": "*",
+	"file": "",
+	"response": 302,
+	"match":"/cms-sypher",
+	"description":"リダイレクトされる"
+  },
+  "signiture2":{
+    "CMS": "cms-sypher",
+	"version": "*",
+	"file": "share/js/common.js",
+	"response": 200,
+	"match":"// common.js",
+	"description":"js とりあえず作った"
+  },
+  "signiture3":{
+    "CMS": "cms-sypher",
+	"version": "*",
+	"file": "share/css/white.css",
+	"response": 200,
+	"match":"@charset \"utf-8\";",
+	"description":"css"
+  },
+  "signiture4":{
+    "CMS": "cms-sypher",
+	"version": "*",
+    "file": "common/sitemap.jsp",
+    "response": 200,
+	"match":"<title>サイトマップ",
+	"description":"サイトマップ"
+  }
+}
+

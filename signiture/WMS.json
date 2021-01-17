@@ -1,0 +1,26 @@
+{
+  "signiture1":{
+    "CMS": "Web Management System",
+	"version": "*",
+	"file": "Local/styles/view/banner.css",
+	"response": 200,
+	"match":"/* banner CSS*/",
+	"description":"css"
+  },
+  "signiture2":{
+    "CMS": "Web Management System",
+	"version": "*",
+	"file": "Local/scripts/ImportView.js",
+	"response": 200,
+	"match":"全サイトで共通で使用するJSファイルをロード",
+	"description":"js"
+  },
+  "signiture3":{
+    "CMS": "Web Management System",
+	"version": "*",
+    "file": "",
+    "response": 200,
+	"match":"<menu__item>",
+	"description":"top"
+  }
+}

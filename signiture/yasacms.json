@@ -1,0 +1,26 @@
+{
+  "signiture1":{
+    "CMS": "優CMS",
+	"version": "*",
+	"file": "skin/top/css/import.css",
+	"response": 200,
+	"match":"Import Common CSS File",
+	"description":"css"
+  },
+  "signiture2":{
+    "CMS": "優CMS",
+	"version": "*",
+	"file": "skin/common/js/functions.js",
+	"response": 200,
+	"match":"Copyright(c) 2013 @Kuro",
+	"description":"css"
+  },
+  "signiture3":{
+    "CMS": "優CMS",
+	"version": "*",
+    "file": "rss.php?mode=news",
+    "response": 200,
+	"match":"<channel>",
+	"description":"rss"
+  }
+}

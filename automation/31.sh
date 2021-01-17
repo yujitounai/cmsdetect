@@ -1,0 +1,21 @@
+#!/bin/sh
+python ./cmsdetect.py 31 鳥取県 https://www.pref.tottori.lg.jp/
+python ./cmsdetect.py 31 鳥取市 https://www.city.tottori.lg.jp/
+python ./cmsdetect.py 31 米子市 https://www.city.yonago.lg.jp/
+python ./cmsdetect.py 31 倉吉市 https://www.city.kurayoshi.lg.jp/
+python ./cmsdetect.py 31 境港市 https://www.city.sakaiminato.lg.jp/
+python ./cmsdetect.py 31 岩美町 http://www.iwami.gr.jp/
+python ./cmsdetect.py 31 八頭町 http://www.town.yazu.tottori.jp/
+python ./cmsdetect.py 31 若桜町 http://www.town.wakasa.tottori.jp/wordpress/
+python ./cmsdetect.py 31 智頭町 http://www1.town.chizu.tottori.jp/
+python ./cmsdetect.py 31 湯梨浜町 https://www.yurihama.jp/
+python ./cmsdetect.py 31 三朝町 http://www.town.misasa.tottori.jp/
+python ./cmsdetect.py 31 北栄町 http://www.e-hokuei.net/
+python ./cmsdetect.py 31 琴浦町 http://www.town.kotoura.tottori.jp/
+python ./cmsdetect.py 31 日吉津村 http://www.hiezu.jp/
+python ./cmsdetect.py 31 大山町 https://www.daisen.jp/
+python ./cmsdetect.py 31 南部町 https://www.town.nanbu.tottori.jp/
+python ./cmsdetect.py 31 伯耆町 https://www.houki-town.jp/
+python ./cmsdetect.py 31 日南町 http://www.town.nichinan.lg.jp/
+python ./cmsdetect.py 31 日野町 https://www.town.hino.tottori.jp/
+python ./cmsdetect.py 31 江府町 https://www.town-kofu.jp/

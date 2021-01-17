@@ -4,6 +4,7 @@
 	"version": "*",
 	"file": "wp-login.php",
 	"response": 200,
+	"match":"WordPress",
 	"description":"login page"
   },
   "signiture2":{
@@ -14,7 +15,7 @@
 	"match":"wordpress",
 	"description":"readme page ここでバージョンわかるかも"
   },
-  "signiture3":{
+  "signiture6":{
     "CMS": "WordPress",
 	"version": "*",
     "file": "license.txt",
@@ -31,9 +32,15 @@
   "signiture5":{
     "CMS": "WordPress",
 	"version": "*",
-    "file": "wp-content/index.php",
-    "response": 200,
-    "length": 0,
-    "match":""
+    "file": "xmlrpc.php?rsd",
+	"match":"rsd",
+    "response": 200
+  },
+  "signiture3":{
+    "CMS": "WordPress",
+	"version": "*",
+    "file": "wp-json/",
+	"match":"\"name\"",
+    "response": 200
   }
 }

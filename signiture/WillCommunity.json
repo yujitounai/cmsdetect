@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "WillCommunity",
+	"version": "*",
+	"file": "common/js/common.js",
+	"response": 200,
+	"match":"/*==============================",
+	"description":"js とりあえず作った"
+  },
+  "signiture2":{
+    "CMS": "WillCommunity",
+	"version": "*",
+	"file": "",
+	"response": 200,
+	"match":"<!-- \\sbnrArea -->",
+	"description":"top"
+  },
+  "signiture3":{
+    "CMS": "WillCommunity",
+	"version": "*",
+    "file": "common/css/common.css",
+    "response": 200,
+	"match":"/common/images/ico_arrow01.gif",
+	"description":"CSS"
+  }
+}
+

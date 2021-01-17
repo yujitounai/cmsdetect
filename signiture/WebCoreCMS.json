@@ -1,0 +1,26 @@
+{
+  "signiture1":{
+    "CMS": "WebCoreCMS",
+	"version": "*",
+	"file": "core/js/top.js",
+	"response": 200,
+	"match":"const showtime",
+	"description":"WebコアCMS 富士通"
+  },
+  "signiture2":{
+    "CMS": "WebCoreCMS",
+	"version": "*",
+	"file": "core/css/style.css",
+	"response": 200,
+	"match":"@charset \"utf-8\";",
+	"description":"css"
+  },
+  "signiture3":{
+    "CMS": "WebCoreCMS",
+	"version": "*",
+    "file": "core/css/top.css",
+    "response": 200,
+	"match":"@charset \"utf-8\";",
+	"description":"css"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "concrete5",
+	"version": "*",
+	"file": "concrete/blocks/image_slider/view.css",
+	"response": 200,
+	"match":"ccm-image-slider",
+	"description":"css"
+  },
+  "signiture2":{
+    "CMS": "concrete5",
+	"version": "*",
+	"file": "concrete/js/ie/html5-shiv.js",
+	"response": 200,
+	"match":"@preserve",
+	"description":"js"
+  },
+  "signiture3":{
+    "CMS": "concrete5",
+	"version": "*",
+    "file": "",
+    "response": 200,
+	"match":"concrete5",
+	"description":"これだけでいい気もする"
+  }
+}
+

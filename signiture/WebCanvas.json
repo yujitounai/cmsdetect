@@ -1,0 +1,11 @@
+{
+  "signiture1":{
+    "CMS": "WebCanvas or CMSKIT",
+	"version": "*",
+	"file": "",
+	"response": 200,
+	"match":"***<!-- WCVTEXT -->",
+	"description":"WebCanvasはCMSKITの前バージョン"
+  }
+}
+

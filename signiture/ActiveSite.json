@@ -1,0 +1,19 @@
+{
+  "signiture2":{
+    "CMS": "ActiveSite",
+	"version": "*",
+	"file": "life/dtl.php",
+	"response": 200,
+	"match":"この情報は表示することができません [1]",
+	"description":""
+  },
+  "signiture4":{
+    "CMS": "ActiveSite",
+	"version": "*",
+	"file": "life/detail.php",
+	"response": 200,
+	"match":"この情報は表示することができません [1]",
+	"description":""
+  }
+}
+

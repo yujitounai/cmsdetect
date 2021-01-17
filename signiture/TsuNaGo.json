@@ -1,5 +1,5 @@
 {
-  "signiture2":{
+  "signiture1":{
     "CMS": "TsuNaGo",
 	"version": "*",
 	"file": "_template_/_site_/_default_/_res/dummy.css",
@@ -7,7 +7,7 @@
 	"match":"@charset \"utf-8\";",
 	"description":"css"
   },
-  "signiture1":{
+  "signiture2":{
     "CMS": "TsuNaGo",
 	"version": "*",
 	"file": "_template_/_site_/_default_/_res/js/smp.js",
@@ -16,6 +16,14 @@
 	"description":"js"
   },
   "signiture3":{
+    "CMS": "TsuNaGo",
+	"version": "*",
+	"file": "_template_/_site_/default_project/_res/js/fm_util.js",
+	"response": 200,
+	"match":"DBPS",
+	"description":"default_project"
+  },
+  "signiture4":{
     "CMS": "TsuNaGo",
 	"version": "*",
     "file": "cgi-evt/event.cgi",

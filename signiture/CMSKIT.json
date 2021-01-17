@@ -29,7 +29,23 @@
     "file": "",
     "response": 500,
 	"match":"***",
-	"description":"cgi-bin/wcv/data/cmskit.db"
+	"description":"cgi-bin/wcv/data/cmskit.db これも検知しないように"
+  },
+  "signiture5":{
+    "CMS": "CMSKIT/WebCanvas",
+	"version": "*",
+    "file": "",
+    "response": 200,
+	"match":"<!-- WCVTEXT -->",
+	"description":"CMSKIT/WebCanvas"
+  },
+  "signiture6":{
+    "CMS": "CMSKIT/WebCanvas",
+	"version": "*",
+    "file": "_wcv/wcvmap/wcvmapShowMap.html",
+    "response": 200,
+	"match":"マップページ",
+	"description":"CMSKIT/WebCanvas"
   }
 }
 

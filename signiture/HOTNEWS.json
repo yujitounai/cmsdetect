@@ -1,0 +1,34 @@
+{
+  "signiture2":{
+    "CMS": "HOTNEWS",
+	"version": "*",
+	"file": "hotnews/category/2.html",
+	"response": 200,
+	"match":"くらし・手続き",
+	"description":"hotnews"
+  },
+  "signiture3":{
+    "CMS": "HOTNEWS",
+	"version": "*",
+	"file": "css/color0.css",
+	"response": 200,
+	"match":"@charset \"utf-8\";",
+	"description":"css"
+  },
+  "signiture1":{
+    "CMS": "HOTNEWS",
+	"version": "*",
+    "file": "",
+    "response": 200,
+	"match":"hotnews_id",
+	"description":"top"
+  },
+  "signiture4":{
+    "CMS": "HOTNEWS",
+	"version": "*",
+    "file": "hotnews/sitemap/",
+    "response": 200,
+	"match":"<title>サイトマップ",
+	"description":"top"
+  }
+}

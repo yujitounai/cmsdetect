@@ -1,0 +1,26 @@
+{
+  "signiture1":{
+    "CMS": "xoops",
+	"version": "*",
+	"file": "",
+	"response": 200,
+	"match":"content=\"XOOPS\"",
+	"description":"topページだけどサンプルが少ない"
+  },
+  "signiture2":{
+    "CMS": "xoops",
+	"version": "*",
+	"file": "xoops.css",
+	"response": 200,
+	"match":"img {border: 0;}",
+	"description":"css"
+  },
+  "signiture3":{
+    "CMS": "xoops",
+	"version": "*",
+    "file": "include/xoops.js",
+    "response": 200,
+	"match":"xoopsGetElementById",
+	"description":"js"
+  }
+}

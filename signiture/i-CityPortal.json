@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "i-CityPortal",
+	"version": "*",
+	"file": "",
+	"response": 302,
+	"match":"/cgi-bin/index.pl",
+	"description":"302リダイレクトする"
+  },
+  "signiture2":{
+    "CMS": "i-CityPortal",
+	"version": "*",
+	"file": "search/ftsservlet?keyword=test",
+	"response": 200,
+	"match":"詳細検索",
+	"description":"検索ページ"
+  },
+  "signiture3":{
+    "CMS": "i-CityPortal",
+	"version": "*",
+	"file": "",
+	"response": 200,
+	"match":"/www/genre/",
+	"description":"リダイレクト先このパスが特徴"
+  }
+}
+

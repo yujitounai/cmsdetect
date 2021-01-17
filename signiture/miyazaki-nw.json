@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "miyazaki-nw",
+	"version": "*",
+	"file": "display.php?cont=",
+	"response": 404,
+	"match":"ページが表示できません！",
+	"description":"宮崎県ソフトウェアセンター コンテンツ管理システム（CMS）"
+  },
+  "signiture2":{
+    "CMS": "miyazaki-nw",
+	"version": "*",
+	"file": "list_js.php?list=1",
+	"response": 200,
+	"match":"function RunHTML",
+	"description":"js"
+  },
+  "signiture3":{
+    "CMS": "miyazaki-nw",
+	"version": "*",
+	"file": "display.php?clist=0001",
+	"response": 200,
+	"match":"オープニング",
+	"description":""
+  }
+}
+

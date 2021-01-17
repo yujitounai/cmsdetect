@@ -1,0 +1,27 @@
+{
+  "signiture1":{
+    "CMS": "PowerCMS",
+	"version": "*",
+	"file": "NoExist",
+	"response": 404,
+	"match":"PowerCMS",
+	"description":"404ページ"
+  },
+  "signiture2":{
+    "CMS": "PowerCMS",
+	"version": "*",
+	"file": "NoExist",
+	"response": 200,
+	"match":"PowerCMS",
+	"description":"404ページ"
+  },
+    "signiture3":{
+    "CMS": "PowerCMS",
+	"version": "*",
+	"file": "Templates/StyleSheets/hack.css",
+	"response": 200,
+	"match":"/*　背景・",
+	"description":"css"
+  }
+}
+

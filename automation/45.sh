@@ -1,0 +1,27 @@
+python ./cmsdetect.py 45 宮崎県 https://www.pref.miyazaki.lg.jp/
+python ./cmsdetect.py 45 えびの市 https://www.city.ebino.lg.jp/
+python ./cmsdetect.py 45 綾町 https://www.town.aya.miyazaki.jp/
+python ./cmsdetect.py 45 延岡市 http://www.city.nobeoka.miyazaki.jp/
+python ./cmsdetect.py 45 宮崎市 https://www.city.miyazaki.miyazaki.jp/
+python ./cmsdetect.py 45 串間市 http://www.city.kushima.lg.jp/
+python ./cmsdetect.py 45 五ヶ瀬町 http://www.town.gokase.miyazaki.jp/
+python ./cmsdetect.py 45 諸塚村 https://www.vill.morotsuka.miyazaki.jp/
+python ./cmsdetect.py 45 小林市 http://www.city.kobayashi.lg.jp/
+python ./cmsdetect.py 45 新富町 https://www.town.shintomi.lg.jp/
+python ./cmsdetect.py 45 西都市 https://www.city.saito.lg.jp/
+python ./cmsdetect.py 45 西米良村 https://www.vill.nishimera.lg.jp/village/
+python ./cmsdetect.py 45 川南町 http://www.town.kawaminami.miyazaki.jp/
+python ./cmsdetect.py 45 椎葉村 http://www.vill.shiiba.miyazaki.jp/
+python ./cmsdetect.py 45 都城市 https://www.city.miyakonojo.miyazaki.jp/
+python ./cmsdetect.py 45 都農町 https://www.town.tsuno.lg.jp/
+python ./cmsdetect.py 45 日向市 https://www.hyugacity.jp/
+python ./cmsdetect.py 45 日南市 https://www.city.nichinan.lg.jp/
+python ./cmsdetect.py 45 日之影町 http://www.town.hinokage.lg.jp/
+python ./cmsdetect.py 45 美郷町 http://www.town.miyazaki-misato.lg.jp/
+python ./cmsdetect.py 45 木城町 http://www.town.kijo.lg.jp/
+python ./cmsdetect.py 45 三股町 https://www.town.mimata.lg.jp/
+python ./cmsdetect.py 45 高原町 https://www.town.takaharu.lg.jp/
+python ./cmsdetect.py 45 国富町 http://www.town.kunitomi.miyazaki.jp/
+python ./cmsdetect.py 45 高鍋町 http://www.town.takanabe.lg.jp/
+python ./cmsdetect.py 45 高千穂町 https://www.town-takachiho.jp/
+

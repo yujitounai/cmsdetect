@@ -1,0 +1,50 @@
+{
+  "signiture1":{
+    "CMS": "Movable Type",
+	"version": "*",
+	"file": "",
+	"response": 200,
+	"match":"<meta name=\"generator\" content=\"Movable Type",
+	"description":"MT"
+  },
+  "signiture2":{
+    "CMS": "Movable Type",
+	"version": "*",
+	"file": "atom.xml",
+	"response": 200,
+	"match":"<generator uri=\"http://www.sixapart.com/movabletype/\">",
+	"description":"xml"
+  },
+  "signiture3":{
+    "CMS": "Movable Type",
+	"version": "*",
+    "file": "cgi-bin/mt/mt.cgi",
+    "response": 200,
+	"match":"Movable Type",
+	"description":"login"
+  },
+  "signiture4":{
+    "CMS": "Movable Type",
+	"version": "*",
+    "file": "mt-static/js/tc.js",
+    "response": 200,
+	"match":"Movable Type",
+	"description":"PowerCMSかも"
+  },
+  "signiture5":{
+    "CMS": "Movable Type",
+	"version": "*",
+    "file": "cgi-bin/mt/mt-search.cgi?search=1",
+    "response": 200,
+	"match":"Movable Type",
+	"description":"検索"
+  },
+  "signiture6":{
+    "CMS": "Movable Type",
+	"version": "*",
+    "file": "mt/mt-search.cgi?search=1",
+    "response": 200,
+	"match":"Movable Type",
+	"description":"PowerCMSかも"
+  }
+}

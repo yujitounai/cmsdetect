@@ -1,0 +1,22 @@
+#!/bin/sh
+python ./cmsdetect.py 38 愛媛県 https://www.pref.ehime.jp/
+python ./cmsdetect.py 38 松山市 http://www.city.matsuyama.ehime.jp/
+python ./cmsdetect.py 38 今治市 https://www.city.imabari.ehime.jp/
+python ./cmsdetect.py 38 宇和島市 https://www.city.uwajima.ehime.jp/
+python ./cmsdetect.py 38 八幡浜市 http://www.city.yawatahama.ehime.jp/
+python ./cmsdetect.py 38 新居浜市 https://www.city.niihama.lg.jp/
+python ./cmsdetect.py 38 西条市 https://www.city.saijo.ehime.jp/
+python ./cmsdetect.py 38 大洲市 https://www.city.ozu.ehime.jp/
+python ./cmsdetect.py 38 伊予市 https://www.city.iyo.lg.jp/
+python ./cmsdetect.py 38 四国中央市 https://www.city.shikokuchuo.ehime.jp/
+python ./cmsdetect.py 38 西予市 https://www.city.seiyo.ehime.jp/
+python ./cmsdetect.py 38 東温市 https://www.city.toon.ehime.jp/
+python ./cmsdetect.py 38 上島町 http://www.town.kamijima.lg.jp/
+python ./cmsdetect.py 38 久万高原町 http://www.kumakogen.jp/
+python ./cmsdetect.py 38 松前町 https://www.town.masaki.ehime.jp/
+python ./cmsdetect.py 38 砥部町 https://www.town.tobe.ehime.jp/
+python ./cmsdetect.py 38 内子町 https://www.town.uchiko.ehime.jp/
+python ./cmsdetect.py 38 伊方町 https://www.town.ikata.ehime.jp/
+python ./cmsdetect.py 38 松野町 http://www.town.matsuno.ehime.jp/
+python ./cmsdetect.py 38 鬼北町 https://www.town.kihoku.ehime.jp/
+python ./cmsdetect.py 38 愛南町 https://www.town.ainan.ehime.jp/

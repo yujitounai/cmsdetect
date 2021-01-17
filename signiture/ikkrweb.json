@@ -20,7 +20,7 @@
 	"version": "*",
     "file": "section/jalert_rss/jalert_rss.php",
     "response": 200,
-	"match":"",
+	"match":"rss",
 	"description":"icon"
   }
 }
